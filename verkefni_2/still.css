@@ -1,0 +1,15 @@
+.block li{padding: 1em;
+margin: 1em;
+border: 3px green dashed;}
+.inline li{padding: 1em;
+margin: 1em;
+border: 3px blue dashed;
+display: inline;
+color: red;}
+.inline-block li{padding: 1em;
+margin: 1em;
+border: 3px red dashed;
+display: inline-block;
+}
+
+img{float: right;}
