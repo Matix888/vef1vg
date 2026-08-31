@@ -1,3 +1,6 @@
+*{box-sizing: border-box;}
+body{max-width: 960px; margin: 10px;}
+
 .block li{padding: 1em;
 margin: 1em;
 border: 3px green dashed;}
@@ -12,4 +15,12 @@ border: 3px red dashed;
 display: inline-block;
 }
 
+
+.box{padding: 1em;}
+.v23{max-width: 100%; margin: 0px auto ;}
 img{float: right;}
+.efri{border: 1px solid green;}
+.stort-T{font-size: 3em; float: left; padding: 10px}
+.nedri{border: 1px solid blue; width: 100%;}
+.box{padding: 10px; width: 50%; float: left;}
+.athugid{background-color: yellow; text-align: center; padding: 10px;}
