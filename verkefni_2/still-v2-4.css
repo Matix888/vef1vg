@@ -1,0 +1,11 @@
+*{padding: 5px;}
+
+body{
+    max-width: 80%;
+    margin: 0 auto;
+    border: 3px solid black;}
+
+ul li{display: inline-block;}
+H1{font-size: 4em;
+text-align: center;}
+hr{color: blue;}
