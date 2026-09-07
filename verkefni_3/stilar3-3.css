@@ -1,0 +1,13 @@
+.container{display: grid;
+grid-template-columns: 3fr 1fr;
+}
+nav{display:flex;}
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
