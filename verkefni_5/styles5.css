@@ -1,0 +1,18 @@
+.col-3{border: 1px black solid;}
+    .col-3 nav{border: 1px black solid;
+    padding: 5px;}
+
+
+
+@media screen and (max-width: 599px)
+{
+    .col-3{display: grid;
+        grid-template-columns: 1fr;}
+
+}
+
+@media screen and (min-width: 600px)
+{
+    .col-3{display: grid;
+        grid-template-columns: 1fr 1fr 1fr;}
+}
