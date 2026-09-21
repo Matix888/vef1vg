@@ -1,6 +1,7 @@
-.col-3{border: 1px black solid;}
-    .col-3 nav{border: 1px black solid;
-    padding: 5px;}
+    .col-3 nav{padding: 5px;}
+
+.container{text-align: center;}
+nav ul{list-style-type: none;}
 
 
 
@@ -15,4 +16,13 @@
 {
     .col-3{display: grid;
         grid-template-columns: 1fr 1fr 1fr;}
+    .col-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;}
+}
+
+@media screen and (min-width: 960px)
+{
+    body{margin: 0 auto;
+    max-width: 960px;}
 }
