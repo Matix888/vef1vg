@@ -1,0 +1,14 @@
+nav ul{list-style-type: none;
+}
+
+li{text-align: center;}
+
+@media screen and (min-width: 600px)
+{nav ul
+{
+display:flex;
+justify-content: space-evenly;
+flex-grow: 1;
+}
+}
+
