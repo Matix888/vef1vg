@@ -1,17 +1,22 @@
-nav ul{list-style-type: none;
+aside{display:none;}
+
+.navbar ul{list-style-type: none;
 background-color: #333;
 color: whitesmoke;
 }
 
-li{text-align: center;}
-li a{text-decoration: none;
+.col-3 {display: grid;
+grid-template-columns: 1fr 1fr 1fr;}
+
+.navbar li{text-align: center;}
+.navbar li a{text-decoration: none;
 color: whitesmoke;}
-a:visited{color:darkgray}
+.navbar a:visited{color:darkgray}
 
 article{padding:10px;}
 
 @media screen and (min-width: 600px)
-{nav ul
+{.navbar ul
 {
 display:flex;
 justify-content: space-evenly;
@@ -22,5 +27,13 @@ section{display:grid;}
 .s2{grid-template-columns: 3fr 1fr;}
 .s3{grid-template-columns: 1fr 3fr;}
 .s4{grid-template-columns: 3fr 1fr;}
+aside{display: block;}
+aside img{height: 250px;
+width: 250px;}
 }
 
+@media screen and (min-width: 960px)
+{aside img{height: 500px;
+width: 500px;}
+    
+}
