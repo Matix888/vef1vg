@@ -1,14 +1,15 @@
-@font-face{
-font-family: 'Oswald';
-src: url('Fonts/Oswald/Oswald-VariableFont_wght.ttf');
-font-weight: 200 700;
-font-style: normal;
+@font-face {
+    font-family: 'Oswald';
+    src: url(./Oswald-VariableFont_wght.ttf);
+    font-weight: 200 700;
+    font-style: normal;
 }
-@font-face{
-font-family: 'Inter';
-src: url('Fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf');
-font-weight: 200 700;
-font-style: italic;
+
+@font-face {
+    font-family: 'Inter';
+    src: url(./Inter-Italic-VariableFont_opsz\,wght.ttf);
+    font-weight: 200 700;
+    font-style: italic;
 }
 
 .nedst a{color: #D0D4D8;
